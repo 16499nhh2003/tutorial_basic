@@ -1,10 +1,10 @@
-var http = require("http");
-http
-  .createServer(function (req, res) {
-    res.writeHead(200, { "Content-Type": "text/plain" });
-    res.write("Hello World!");
-    res.end();
-  })
-  .listen(8080, () => {
-    console.log("2123");
-  });
+const http = require('http')
+
+const server = http.createServer((req, res) => {
+  console.log('request event')
+  res.end('Hello Word')
+})
+
+server.listen(8080, () => {
+  console.log('Server listening on port : 8080....')
+})
