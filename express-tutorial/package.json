@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "express-tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-=======
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "03-modules.js",
->>>>>>> 9abba76750842b510b97ff8f966242c001c8700c
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -17,12 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "express": "^4.18.2",
     "morgan": "^1.10.0"
-=======
-    "lodash": "^4.17.21"
->>>>>>> 9abba76750842b510b97ff8f966242c001c8700c
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
